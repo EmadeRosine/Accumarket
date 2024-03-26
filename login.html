@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accumarket-login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-page">
+        <img src="images/63dac2d529cfda1ee759f70e_Accumarkets-logo-LL-2 copy.svg" alt="">
+
+        <div class="login-part1">
+            <div class="login-part1-left">
+                <div class="login-part1-lefta">                    Not registered yet?<br />
+                    It takes less than a minute </div>
+                <div class="login-part1-leftb">
+                    <a href="register.html">REGISTER NOW</a>
+                </div>
+            </div>
+            <div class="login-part1-right">
+                <div class="login">Login</div>
+                <form name="form_login" method="get" action="/login_check">
+                    <div class="login-form-email">
+                        <input type="email" id="username" name="email" required="required" placeholder="Email" />
+                    </div>
+                    <div class="password-field">
+                        <span class="password-field-show"><i class="fa fa-fw fa-eye"></i></span>
+                        <div class="input-group">
+                            <input type="password" name="password" required="required" placeholder="Password" />
+                        </div>
+                    </div>
+                    <label class="remember-box">
+                        <input type="checkbox" id="form_login_remember_me" name="remember_me" value="1" />
+                        <label for="form_login_remember_me"> Remember me</label>
+                        <label for="form-text-right" class="required">
+                            <a href="#">Forgot Password </a>
+                        </label>
+                    </label>
+                        
+                    <button type="submit" name="submit" class="btn">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="risk-warning">
+        Risk Warning : Trading FX instruments and CFDs can incur a high level of risk and may result in a loss of all
+        your invested Capital.
+    </div>
+</body>
+</html>

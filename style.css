@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+  }
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100%;
+    color: #333;
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 20px;
+  } 
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    padding: 1rem 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;/* this property does not work without setting the position*/
+}
+.navbar a,.dropdown{
+    color: white;
+    font-size: 1.15rem;
+    margin-left: 2.5rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.dropbtn {
+    padding: 16px;
+    font-size: 1.15rem;
+    border: none;
+    background: black;
+    color: #fff;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    background: black;
+}
+.navbar img{
+    width: 12rem;
+    height: 2rem;
+}
+.navbar .navbar-right #btn{
+    background-color: orangered;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    
+}
+.navbar .navbar-right #btn:hover{
+    background: #2D3142;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.navbar .navbar-left{
+    padding-bottom: 10px;
+}
+.homepage{
+    background: url(images/home.webp);
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.homepage h1{
+    padding-top: 300px;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.tur{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    max-width: 980px;
+    margin: 30px auto;
+    padding: 20px;
+}
+.pic img{
+    width: 200rem;
+    height: 28rem;
+    border-radius: 20px;
+}
+.tur .mar{
+    justify-content: left;
+    padding: 1.6rem 2rem;
+    position: relative;
+    /* margin-right: 48px; */
+    line-height: 1.5;
+}
+.tur h1{
+    font-size: 35px;
+}
+.mar span{
+    color: orange;
+}
+.mar p{ 
+    font-size: 16px;
+}
+
+.forex{
+    box-shadow: 1px gray;
+    background-color:  white;
+    width: 15rem;
+    height: 17rem;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+.forex h3{
+    color: rgb(44, 44, 92);
+    padding: 10px;
+    margin: 2px;
+}
+.forex p{
+    padding: 10px;
+    margin: 3px ;
+    font-size: 15px;
+}
+
+.forex .ag img{
+    margin-top: 10px;
+    width: 4rem;
+    height: 4rem;
+    padding: 10px;
+}
+.forex:hover{
+box-shadow: -2px -2px 0px 0px rgb(218, 213, 213);
+}
+.home-table{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+    padding: 20px;
+}
+.market h1{
+    padding: 100px; 
+}
+.market .ip{
+    width: 300px;
+    height: 230px; 
+    padding: 20px 20px;
+    background-color: white;  
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.ip h4{
+    color: rgb(34, 34, 54);
+}
+.ip p{
+    padding: 10px;
+    margin: 2px;
+}
+.ip .ca img{
+    margin-top: 10px;
+    width: 4rem;
+    height: 4rem;
+    padding: 10px;
+}
+.lo{
+    display: flex;
+    align-items: center;
+    margin: -150px 0px -80px 0px;
+    padding: 100px;
+}
+
+.market {
+    background-color: whitesmoke;
+    height: 750px;
+    /* width: 1500px; */
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto 0 auto;
+    padding: 20px;
+}
+.go img{   
+    height: 100%;
+    width: 95%;
+    margin: -50px 5px -80px 5px;
+
+ }
+.go{
+    display: flex;
+    align-items: center;
+    margin: -150px 100px -80px 0px;
+    padding: 100px;
+}
+.ame .ic img{
+    width: 600px;
+    height: 700px;
+    border-radius: 0px 10px 10px 0;
+}
+.ame .oran{ 
+   border-radius: 10px 0 0 10px;
+   width: 600px;
+   height: 700px;
+   color: white;
+   background-size: cover;
+   background: url(images/footer.jpg) ;
+   padding: 180px 80px;
+   line-height: 2rem;
+}
+.ame .oran h1{
+    font-size: 35px;
+}
+.ame .oran h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ame .oran p{
+    font-size: 18px;
+}
+.ame .oran .get{
+    display: flex;
+}
+.ame .oran .get img{
+    width: 10rem;
+    height: 4rem;
+}
+.ame .oran .get .right img{
+    margin-left: 40px;
+}
+.ame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid orange; */
+}
+.re p{
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 40px;
+}
+.ma img{
+    justify-content: space-between;
+    height: 3rem;
+    width: 8rem;
+    margin-left: 40px;
+}
+.ma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 10px auto 0 auto;
+    padding: 20px;
+}
+.neo{
+    background:url(images/shiny-home.jpeg);
+    background-size: cover;
+    height: 550px; 
+    width: 100%;
+}
+.neo h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    margin: 50px;
+    padding-top: 100px;
+}
+.neo h3{
+   color: white;
+  margin-top: 50px;
+  padding-left: 50px;
+   font-size: 25px;
+}
+.neo p{
+   color: white;
+   font-size: 15px;
+   padding-top: 50px;
+  justify-content: center;
+  text-align: center;
+}
+.neo .bad{
+    border: 1px solid orangered;
+    width: 290px;
+    height: 270px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ble{
+    display: flex;
+    align-items: center;
+    max-width: 980px;
+    margin: 10px auto;
+    padding: 20px;
+}
+.she{
+    background-color: white;
+    max-width: 900px;
+    border-radius: 10px;
+    height: 15rem;
+    padding: 20px 100px;
+    text-align: center;
+    justify-content: center;
+    margin: 40px auto;
+}
+.she p{
+    color: orangered;
+    font-size: 70px;
+}
+.she h3{
+   font-size: 20px;
+}
+.bom{
+    margin: 40px 0;
+    text-align: center;
+    justify-content: center;
+}
+.whatsapp{
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+.whatsapp img{
+    width: 18rem;
+    height: 4rem;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+.landing-part6{
+    padding: 20px 100px;
+    background: url(images/footer.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.landing-part6 button{
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: orange;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+}
+.landing-part6 button:hover{
+    background: #2D3142;
+    color: #fff;
+
+}
+.landing-part6 h1{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 8rem;
+}
+.footer{
+    background-color: #2D3142;
+    color: #fff;
+    padding: 20px 40px;
+    flex-direction: column;
+    align-items: center;
+    height: 35rem;
+    line-height: 1.5rem;
+}
+.footer-part{
+    display: flex;
+    /* flex-wrap: wrap; */
+    font-size: 15px;
+    align-items: center;
+    max-width: 980px;
+    margin: 10px auto;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+.copy{
+    font-size: 15px;
+    align-items: center;
+    max-width: 980px;
+    margin: 10px auto;
+    padding: 20px;
+}
+.footer-left{
+    margin-right: 25px;
+    font-size: 16px;
+    width: 20rem;
+    justify-content: center;
+}
+.footer-right{
+    width: 70rem;
+    font-size: 13px;
+}
+
+@media screen and (max-width:768px){
+    body{
+        flex-wrap: wrap;
+        display: block;
+    }
+    header{
+        flex-wrap: wrap;
+    }
+   
+    .tur{
+        display: block;
+    }
+    .home-table{
+        display: block;
+        width: 100%;
+    }
+    
+    .ame{
+        display: block;
+    }
+    .ma{
+        display: block;
+    }
+    .footer-part{
+        display: block;
+        flex-direction: row;
+    }
+    
+}

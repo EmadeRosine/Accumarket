@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #101828;
+  background-color: #ffffff;
+  background-image: url("images/Login-screen-BG-image-without-logo-.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter,Arial,Helvetica,sans-serif;
+  height: auto;
+  min-height: 100%;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.container img{
+    width: 20rem;
+    height: 6rem;
+    margin-top: 10px;
+}
+form h2{
+    font-size: 30px;
+    margin: 20px 0 ;
+}
+.register-main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    padding: 20px 50px;
+    font-size:15px ;
+    border-radius: 10px;
+    background: transparent;
+    color: #ffffff;
+}
+.form input[type="text"],input[type="tel"],input[type="email"],input[type="password"]{
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+.form option,select{
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+.btn{
+    padding: 10px 50px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    background: orange;
+}
+.risk-warning{
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: center;
+    color: grey;
+}
+@media screen and(max-width:600px) {
+    .container{
+        max-width: 90%;
+    }
+}

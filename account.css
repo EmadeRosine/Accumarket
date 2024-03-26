@@ -1,0 +1,67 @@
+body {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 100%;
+  }
+  .account-welcome{
+    justify-content: center;
+    background-color: whitesmoke;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* max-width: 1000px; */
+    margin: 150px auto 0 auto;
+    padding: 20px;
+    line-height: 2em;
+  }
+  .account-welcome h1{
+    font-size: 70px;
+    color: #070029;
+    margin-bottom: 5px;
+  }
+  .account-welcome p{
+    padding: 0 350px;
+    margin-top: 50px;
+  }
+.account-welcome img{
+    width: 70rem;
+    height: 25rem;
+    margin-top: 80px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* padding: 20px; */
+}
+.box{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+    padding: 20px;
+    gap: 30px;
+}
+.boxes{
+    background: #070029;
+    color: white;
+    border-radius: 5px;
+    height: 18rem;
+    width: 35rem;
+    justify-content: center;
+    text-align: justify;
+    padding: 25px;
+    font-size: 15px;
+}
+.boxes p{
+    font-size: 20px;
+    border-bottom:1px solid #fff ;
+    padding-bottom: 10px;
+    margin: 20px 10px;
+}

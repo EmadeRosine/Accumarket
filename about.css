@@ -1,0 +1,71 @@
+body {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 100%;
+  }
+.about-welcome{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+.about-welcome img{
+    width: 900px;
+    height: 400px;
+    margin-top: 70px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.about-part1{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 40px auto 0 auto;
+    padding: 20px;
+}
+.about-part1 img{
+    width: 180rem;
+    height: 28rem;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.about-part1 .about-text{
+    justify-content: left;
+    padding: 1.6rem 1.5rem;
+    position: relative;
+    margin-left: 8px;
+    line-height: 1.5;
+}
+.about-part1 h2{
+    color: orange;
+    font-size: 32px;
+}
+.about-part2{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    max-width: 980px;
+    margin: 10px auto;
+    padding: 20px;
+}
+.about-part2 img{
+    width: 180rem;
+    height: 28rem;
+    border-radius: 20px;
+}
+.about-part2 .about-text{
+    justify-content: left;
+    padding: 1.6rem 2rem;
+    position: relative;
+    margin-right: 8px;
+    line-height: 1.5;
+}
+.about-part2 h2{
+    color: orange;
+    font-size: 32px;
+}

@@ -1,0 +1,72 @@
+body {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 100%;
+  }
+  .deposit-welcome{
+    justify-content: center;
+    background-color: whitesmoke;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* max-width: 1000px; */
+    margin: 150px auto 0 auto;
+    padding: 20px;
+    line-height: 2em;
+  }
+  .deposit-welcome h1{
+    font-size: 70px;
+    color: #070029;
+    margin-bottom: 5px;
+  }
+  .deposit-welcome p{
+    padding: 0 350px;
+    margin-top: 50px;
+  }
+.deposit-welcome img{
+    width: 70rem;
+    height: 25rem;
+    margin-top: 80px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* padding: 20px; */
+}
+.deposit-part1{
+    margin: 20px auto;
+    padding: 20px;
+    justify-content: center;
+}
+.deposit-table1{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-size: 18px;
+    gap: 30px;
+    align-items: center;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+    padding: 20px;
+}
+.deposit-table1 img{
+    width: 7rem;
+    height: 3rem;
+    margin: 15px;
+    justify-items: center;
+    align-items: center;
+}
+.deposit1{
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 17rem;
+    height: 17rem;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5em;
+}
